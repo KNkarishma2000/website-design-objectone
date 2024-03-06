@@ -1,0 +1,214 @@
+
+
+
+@media screen and (max-width: 1350px) {
+    .header-image{
+        height:600px;
+    }
+    .header-image h6{
+        font-size: 20px;
+    }
+    .header-image h1{
+        font-size: 50px;
+    }
+    .header-img{
+        top:50%;
+        
+      }
+    .menu {
+        display:block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: fixed;
+        top: 10%;
+        right: -100%;
+        z-index: 100;
+        
+        transition: all 0.2s ease-in-out;
+      }
+      header{
+        background-color:transparent;
+      }
+   .row{
+    max-width: 90%;
+   }
+   .thumb-img{
+    display:flex;
+    align-items: center;
+    column-gap: 10px;
+  
+}
+.services-card{
+column-gap: 20px;
+max-width: 90%;
+}
+.our-goals{
+    max-width: 90%;
+}
+.right-sideimag{
+    top:286%;
+}
+.about-style-one{
+    width:50%;
+}
+.solutions{
+    max-width: 90%;
+}
+     .logo{
+        position: absolute;
+        top:1%;
+        left:0;
+     }
+      .menu-bar:hover .dropdown-menu {
+        display: block;
+        position:relative;
+        background-color: rgb(163, 154, 154);
+        margin-top: 8px;
+        margin-left: -15px;
+        
+    }
+    
+      .nav-bar li{
+      width:100%;
+      }
+      #check:checked ~ .menu {
+        right: 0;
+      }
+      #check{
+        display: none;
+      }
+      
+
+    .hamburger-menu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      
+      cursor: pointer;
+    }
+  
+    .hamburger-menu span {
+      width: 30px;
+      height: 3px;
+      background-color: black;
+      margin: 5px 0;
+      display: block;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    #check:checked + .hamburger-menu span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+  
+    #check:checked + .hamburger-menu span:nth-child(2) {
+      opacity: 0;
+    }
+  
+    #check:checked + .hamburger-menu span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+    .footer2{
+        max-width: 85%;
+    }
+    .footer-logo .logo{
+        position: relative;
+       }
+   
+}
+
+@media screen and (max-width: 900px){
+    .footer2{
+display: grid;
+grid-template-columns: 1fr;
+max-width: 98%;
+    }
+    .footer{
+        width:100%;
+       
+      }
+      .footer-logo{
+        width:100%;
+
+      }
+      .solutions{
+        max-width: 100%;
+       display:grid;
+
+       
+      
+      }
+      .solution-text{
+        width:100%;
+      }
+      .right-sideimag{
+display: none;
+      }
+      .goals-text{
+        width:100%;
+      }
+      .our-goals{
+height:190%;
+      }
+      .services-card{
+        display:grid;
+      }
+      .card1:hover,
+       .card1:focus {
+    box-shadow: inset 28em 0 0 0 white;}
+      .about-us{
+        position: relative;
+        height:350%;
+       
+      }
+      .card2{
+        margin-top: 10px;
+      }
+      .goals{
+        display:grid;
+        width:100%;
+      }
+      .goals-cards{
+        display: grid;
+        width:100%;
+      }
+      .service{
+        width:100%;
+        padding:50px 0px;
+    }
+    .service h4{
+        font-size: 40px;
+    }
+    .row{
+        display:grid;
+        max-width: 100%;
+        column-gap: 10px;
+    }
+    .about-style-one{
+        width:100%;
+        padding:10px 0px;
+    }
+    .thumb-img{
+        width:100%;
+    }
+    .thumb img{
+        width:100%;
+        /* max-width: 1800px; */
+    }
+    .award{
+
+        padding:20px 25px;
+       
+        }
+       .img1,.img2{
+        width:50%;
+       }
+       .footer-logo .logo{
+        position: relative;
+       }
+       
+}
